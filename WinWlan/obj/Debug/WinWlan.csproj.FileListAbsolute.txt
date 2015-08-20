@@ -1,1 +1,15 @@
 C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\bin\Debug\WinWlan.exe.config
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\bin\Debug\WinWlan.exe
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\bin\Debug\WinWlan.pdb
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.csprojResolveAssemblyReference.cache
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\View\MainWindow.g.cs
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\App.g.cs
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan_MarkupCompile.cache
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan_MarkupCompile.lref
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\View\MainWindow.baml
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.g.resources
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.Properties.Resources.resources
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.csproj.GenerateResource.Cache
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.exe
+C:\Users\zrk83\Documents\Visual Studio 2015\Projects\WinWlan\WinWlan\obj\Debug\WinWlan.pdb

@@ -63,8 +63,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataHelper\WlanDataHelper.cs" />
     <Compile Include="Model\Wlan.cs" />
-    <Compile Include="ViewModel\WlanList.cs" />
+    <Compile Include="ViewModel\WlanListViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

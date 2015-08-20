@@ -3,10 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WinWlan"
+        xmlns:local="clr-namespace:WinWlan.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:WlanListViewModel/>
+    </Window.DataContext>
     <Grid>
-        
+        <DataGrid Name="datGrid" 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top" ItemsSource="{Binding Path=WlanList}" Width="200" Margin="103,10,215.667,0"/>
+
     </Grid>
 </Window>
