@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using WinWlan.Model;
 using WinWlan.DataHelper;
+using WinWlan.Commands
 
 namespace WinWlan.ViewModel
 {
@@ -17,5 +18,6 @@ namespace WinWlan.ViewModel
         {
             WlanList = WlanDataHelper.GetWlans();
         }
+        public ICommand 
     }
 }

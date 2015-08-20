@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Commands\ScanCommand.cs" />
     <Compile Include="DataHelper\WlanDataHelper.cs" />
     <Compile Include="Model\Wlan.cs" />
     <Compile Include="ViewModel\WlanListViewModel.cs" />

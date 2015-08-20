@@ -9,10 +9,11 @@
     <Window.DataContext>
         <local:WlanListViewModel/>
     </Window.DataContext>
+    <Button Grid.Row="0" Name="scanBtn" Content="Scan" Command="{Binding Path=ScanWlan}"
     <Grid>
-        <DataGrid Name="datGrid" 
+        <DataGrid Name="dataGrid" 
             HorizontalAlignment="Center"
-            VerticalAlignment="Top" ItemsSource="{Binding Path=WlanList}" Width="200" Margin="103,10,215.667,0"/>
+            VerticalAlignment="Top" ItemsSource="{Binding Path=WlanList}" Width="200" Margin="100,10,200.600,0"/>
 
     </Grid>
 </Window>
