@@ -23,5 +23,33 @@ namespace WinWlan.Commands
             _excute = excute;
             _canExcute = canExcute;
         }
+
+        public event EventHandler CanExecuteChanged
+        {
+            add
+            {
+                if (_canExcute != null)
+                {
+                    CommandManager.RequerySuggested += value;
+                }
+            }
+            remove
+            {
+                if (_canExcute != null)
+                {
+                    CommandManager.RequerySuggested -= value;
+                }
+            }
+        }
+        
+        public bool CanExecute(object parameter)
+        {
+            return _canExcute == null ? true : _canExcute();
+        }
+
+        public void Execute(object parameter)
+        {
+            _excute();
+        }
     }
 }
